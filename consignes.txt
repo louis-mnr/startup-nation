@@ -1,0 +1,35 @@
+Contexte : Start-Up Nation est un service en ligne qui met chaque semaine en avant les start-up innovantes dans le secteur du numérique. Pensé au départ exclusivement comme un site web pour smartphone, le service a gagné en popularité et l'entreprise souhaite à présent faire développer une version consultable de façon plus confortable sur d'autres tailles d'écran.
+À partir de l'identité visuelle de la maquette mobile existante, vous devez concevoir une maquette adaptée pour la consultation sur écran d'ordinateur, puis réaliser l'intégration responsive des deux maquettes.
+
+Éléments à votre disposition : 
+
+- un fichier « startup_mobile.psd » : la maquette de la version mobile, de 480px de largeur
+- un fichier « index.html » : une ébauche de la page HTML
+- un répertoire « images » : contient les illustrations dont vous avez besoin
+- un répertoire « polices » : contient les polices « Open Sans » et « Proza Libre » 
+- une palette de couleur : 
+ - White : #ffffff
+ - Mist : #90AFC5
+ - Stone : #336B87
+ - Shadow : #2A3132
+
+
+Tâches à réaliser :
+
+Partie Conception Graphique
+À partir de la maquette pour mobile, déclinez une version desktop :
+- Créez un fichier « startup_desktop.psd » d'une largeur de 1024px, la hauteur est laissée à votre appréciation (ce n'est pas grave si il y a du blanc en dessous du footer)
+- Créez un pictogramme représentant un bookmark sur Adobe Illustrator. Faites deux versions, une pleine et une sous forme de contour avec du vide dedans, de couleur #2A3132. Vous pouvez vous inspirez de ces exemples : https://www.flaticon.com/search?word=bookmark
+- Réorganisez les éléments de la page pour qu'ils occupent l'espace d'une façon équilibrée et ergonomique dans un conteneur centré de 960px max 
+- Intégrer votre pictogramme « bookmark » aux versions mobiles et desktop sous photoshop : l'idée est qu'il y ait un bookmark sous forme contour par défaut à côté de chaque article, vous êtes libres de juger de la position sur les versions desktop et mobile. Dans l'intégration, l'utilisateur peut cliquer sur le bookmark pour qu'il devienne actif : si il est actif, il n'est plus vide devient plein.
+- Pour la version mobile, il n'y a pas d'effet sur les liens, mais pour la version desktop, à l'état normal il n'oht pas de bordure, mais au survol,ils auront en css « border-top : 2px solid #90AFC5 » : faite apparaître ce border au dessus de l'un des items du menu de la version desktop 
+- Adaptez le poids et la qualité des images  
+
+Partie Intégration
+- Réalisez l'intégration HTML / CSS sur la base du fichier index.html fourni
+- L'intégration doit être responsive, le point de rupture est 480px
+- Vous pouvez si vous le souhaiter utiliser le menu hamburger suivant que vous personnaliserez : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+- Optimisez la page web pour les navigateurs Chrome et Firefox
+- Prenez en compte les standards du W3C
+- Optimisez le code pour le référencement naturel
+- Mentionnez dans le footer les crédits

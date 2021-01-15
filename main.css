@@ -1,0 +1,29 @@
+.container{
+  width: 960px;
+}
+
+
+header{
+  background-image: url("images/entrepreneur.jpg");
+  background-size: 100% 120%;
+  height: 473px;
+  text-align: center;
+  padding-top: 170px;
+  color: #fff;
+  font-size: 160px;
+}
+
+ul{list-style-type: none;}
+li{float: left;margin-right: 20px;}
+li a{text-decoration: none;color: #92b0c5;}
+
+#recherche{
+  background-color: #92b0c5;
+  font-size: 24px;
+  margin-left: 100px;
+}
+
+li{
+  font-size: 24px;
+  margin-left: 125px;
+}
